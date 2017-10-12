@@ -1,4 +1,4 @@
-package com.example.service;
+package com.liveasy.service;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -7,10 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.example.model.Role;
-import com.example.model.User;
-import com.example.repository.RoleRepository;
-import com.example.repository.UserRepository;
+import com.liveasy.model.Role;
+import com.liveasy.model.User;
+import com.liveasy.repository.RoleRepository;
+import com.liveasy.repository.UserRepository;
 
 @Service("userService")
 public class UserServiceImpl implements UserService{

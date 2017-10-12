@@ -1,4 +1,4 @@
-package com.example.storage;
+package com.liveasy.storage;
 
 import org.springframework.core.io.Resource;
 import org.springframework.web.multipart.MultipartFile;

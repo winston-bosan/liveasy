@@ -1,4 +1,4 @@
-package com.example.storage;
+package com.liveasy.storage;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;

@@ -1,4 +1,4 @@
-package com.example;
+package com.liveasy;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 
-import com.example.storage.StorageProperties;
-import com.example.storage.StorageService;
+import com.liveasy.storage.StorageProperties;
+import com.liveasy.storage.StorageService;
 
 
 @SpringBootApplication

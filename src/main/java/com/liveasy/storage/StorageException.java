@@ -1,4 +1,4 @@
-package com.example.storage;
+package com.liveasy.storage;
 
 @SuppressWarnings("serial")
 public class StorageException extends RuntimeException {

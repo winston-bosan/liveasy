@@ -1,4 +1,4 @@
-package com.example.model;
+package com.liveasy.model;
 
 import java.util.List;
 import java.util.Set;

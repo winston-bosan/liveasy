@@ -1,7 +1,7 @@
-package com.example.service;
+package com.liveasy.service;
 
-import com.example.model.House;
-import com.example.model.User;
+import com.liveasy.model.House;
+import com.liveasy.model.User;
 
 public interface HouseService {
 	

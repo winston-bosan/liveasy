@@ -1,16 +1,17 @@
-package com.example.service;
+package com.liveasy.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.model.House;
-import com.example.model.User;
-import com.example.repository.HouseRepository;
-import com.example.repository.UserRepository;
+import com.liveasy.model.House;
+import com.liveasy.model.User;
+import com.liveasy.repository.HouseRepository;
+import com.liveasy.repository.UserRepository;
 
 @Service("houseService")
 public class HouseServiceImpl implements HouseService{
 
+	@SuppressWarnings("unused")
 	@Autowired
 	private UserRepository userRepository;
 	@Autowired

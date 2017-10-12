@@ -1,4 +1,4 @@
-package com.example.storage;
+package com.liveasy.storage;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
